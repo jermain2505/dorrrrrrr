@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Something I Want To Tell You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts" id="hearts"></div>
+
+    <main class="game-container">
+
+        <!-- =========================
+             START SCREEN
+        ========================== -->
+
+        <section class="screen active" id="startScreen">
+
+            <div class="game-card start-card">
+
+                <div class="big-heart">💗</div>
+
+                <p class="small-title">A Little Story</p>
+
+                <h1>
+                    Something<br>
+                    <span>I Want To Tell You</span>
+                </h1>
+
+                <p class="description">
+                    Ada sesuatu yang sebenarnya sudah lama
+                    ingin aku sampaikan...
+                </p>
+
+                <button class="main-btn" id="startBtn">
+                    Mulai Cerita ❤️
+                </button>
+
+                <p class="warning">
+                    ⚠️ Hati-hati, ending-nya bisa bikin senyum.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GAME SCREEN
+        ========================== -->
+
+        <section class="screen" id="gameScreen">
+
+            <div class="game-card">
+
+                <!-- Top -->
+
+                <div class="top">
+
+                    <div>
+                        <span class="chapter" id="chapter">
+                            Chapter 01
+                        </span>
+
+                        <h2 id="chapterTitle">
+                            First Conversation
+                        </h2>
+                    </div>
+
+                    <div class="love-counter">
+                        ❤️ <span id="lovePoint">0</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Love Meter -->
+
+                <div class="meter-container">
+
+                    <div class="meter-info">
+                        <span>Love Meter</span>
+                        <span id="lovePercent">0%</span>
+                    </div>
+
+                    <div class="meter">
+                        <div class="meter-fill" id="meterFill"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- Character -->
+
+                <div class="character-area">
+
+                    <div class="character girl">
+                        <div class="character-face" id="girlFace">
+                            👩🏻
+                        </div>
+
+                        <span>Her</span>
+                    </div>
+
+                    <div class="heart-between">
+                        ❤️
+                    </div>
+
+                    <div class="character">
+                        <div class="character-face">
+                            🧑🏻
+                        </div>
+
+                        <span>You</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Dialogue -->
+
+                <div class="dialogue">
+
+                    <div class="speaker" id="speaker">
+                        Dia
+                    </div>
+
+                    <p id="dialogueText">
+                        ...
+                    </p>
+
+                </div>
+
+
+                <!-- Choices -->
+
+                <div class="choices" id="choices">
+
+                </div>
+
+
+                <!-- Continue -->
+
+                <button class="continue-btn hidden" id="continueBtn">
+                    Lanjut →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONFESSION SCREEN
+        ========================== -->
+
+        <section class="screen" id="confessionScreen">
+
+            <div class="game-card confession-card">
+
+                <div class="moon">🌙</div>
+
+                <p class="small-title">
+                    One Last Thing...
+                </p>
+
+                <h1>
+                    Can I Tell You<br>
+                    <span>Something?</span>
+                </h1>
+
+                <div class="letter">
+
+                    <p>
+                        Sebenarnya...
+                    </p>
+
+                    <p>
+                        aku nggak tahu harus mulai dari mana.
+                    </p>
+
+                    <p>
+                        Tapi selama kita ngobrol,
+                        ketemu, dan menghabiskan waktu bersama...
+                        ada satu hal yang semakin aku sadari.
+                    </p>
+
+                    <p class="bold">
+                        Aku suka kamu. ❤️
+                    </p>
+
+                    <p>
+                        Dan aku ingin tahu...
+                    </p>
+
+                    <p class="question">
+                        Mau nggak kamu jadi seseorang
+                        yang spesial buat aku?
+                    </p>
+
+                </div>
+
+
+                <div class="confession-buttons">
+
+                    <button class="accept-btn" id="acceptBtn">
+                        Aku Terima ❤️
+                    </button>
+
+                    <button class="time-btn" id="timeBtn">
+                        Kasih aku waktu... 🙈
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ENDING SCREEN
+        ========================== -->
+
+        <section class="screen" id="endingScreen">
+
+            <div class="game-card ending-card">
+
+                <div class="celebration">
+                    🎉
+                </div>
+
+                <div class="huge-heart">
+                    ❤️
+                </div>
+
+                <p class="small-title">
+                    THE END
+                </p>
+
+                <h1>
+                    SHE SAID
+                    <span>YES!</span>
+                </h1>
+
+                <div class="ending-message">
+
+                    <p>
+                        “Aku terima.” ❤️
+                    </p>
+
+                    <p>
+                        Dan mungkin...
+                        ini bukan akhir dari cerita.
+                    </p>
+
+                    <p>
+                        Ini baru awal dari
+                        cerita kalian berdua. ✨
+                    </p>
+
+                </div>
+
+                <div class="final-stats">
+
+                    <div>
+                        <strong id="finalLove">
+                            100%
+                        </strong>
+
+                        <span>Love</span>
+                    </div>
+
+                    <div>
+                        <strong>∞</strong>
+                        <span>Possibility</span>
+                    </div>
+
+                </div>
+
+                <button class="main-btn" id="restartBtn">
+                    Main Lagi 🔄
+                </button>
+
+                <p class="footer-text">
+                    Made with courage & a little bit of love ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
